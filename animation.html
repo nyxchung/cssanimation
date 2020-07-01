@@ -80,9 +80,14 @@
 
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript">
+	    $(document).ready(
+    function()
+    {
         $('#controler input').on('click', function(){
             $('#animate').attr('class',$(this).attr('id'))
         })
+	    }
+);
     </script>
 
 </body>
